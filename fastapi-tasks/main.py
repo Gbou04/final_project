@@ -59,7 +59,7 @@ def task_stats():
     }
 
 
-# NUM2 AND 7: Get all tasks (GET /tasks) with optional filter ?completed=true/false
+# NUM2 AND 7: Get all tasks (GET /tasks) with optional filter 
 @app.get("/tasks")
 def get_all_tasks(completed: bool | None = None):
     tasks = load_tasks()
