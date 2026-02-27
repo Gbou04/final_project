@@ -1,0 +1,19 @@
+# ADD AL GITIGNORE
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+*.db
+
+.DS_Store
+
+.vscode/
+
+*.log
+
+
+
+
+
